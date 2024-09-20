@@ -10,7 +10,7 @@ df=pd.read_csv('new_data (1).csv')
 st.markdown("""
     <style>
     .reportview-container {
-        background: url('https://drive.google.com/file/d/1M9veuEBmAHeLrqDba8urdGvIUP_WdBoe/view?usp=sharing') no-repeat center center fixed;
+        background: url('https://drive.google.com/uc?id=1M9veuEBmAHeLrqDba8urdGvIUP_WdBoe') no-repeat center center fixed;
         background-size: cover;
     }
     .sidebar .sidebar-content {
@@ -22,7 +22,6 @@ st.markdown("""
 # Function for landing page
 def landing_page():
     st.title("Welcome to My Streamlit App")
-    st.write("This is the landing page with a background image.")
     st.write("Click on the sidebar to navigate to different sections.")
 
 # Function for univariate analysis
