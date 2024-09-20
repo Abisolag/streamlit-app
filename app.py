@@ -1,8 +1,8 @@
 import streamlit as st
-!import pandas as pd
-!import matplotlib.pyplot as plt
-!import seaborn as sns
-!import plotly.express as px
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly.express as px
 
 df=pd.read_csv('new_data.csv')
 
