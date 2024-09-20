@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 
-df=pd.read_csv('new_data.csv')
+df=pd.read_csv('new_data (1).csv')
 
 # Set the background image and style
 st.markdown("""
